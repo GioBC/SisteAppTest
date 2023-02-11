@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A16BD7D299464C4007A81A3 /* SisteCreditoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BD7C299464C4007A81A3 /* SisteCreditoAppApp.swift */; };
+		5A16BD7F299464C4007A81A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BD7E299464C4007A81A3 /* ContentView.swift */; };
+		5A16BD81299464C8007A81A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A16BD80299464C8007A81A3 /* Assets.xcassets */; };
+		5A16BD84299464C8007A81A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A16BD83299464C8007A81A3 /* Preview Assets.xcassets */; };
+		5A16BD86299464C8007A81A3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BD85299464C8007A81A3 /* Persistence.swift */; };
+		5A16BD89299464C8007A81A3 /* SisteCreditoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BD87299464C8007A81A3 /* SisteCreditoApp.xcdatamodeld */; };
+		5A16BD93299464C8007A81A3 /* SisteCreditoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BD92299464C8007A81A3 /* SisteCreditoAppTests.swift */; };
+		5A16BD9D299464C8007A81A3 /* SisteCreditoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BD9C299464C8007A81A3 /* SisteCreditoAppUITests.swift */; };
+		5A16BD9F299464C8007A81A3 /* SisteCreditoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BD9E299464C8007A81A3 /* SisteCreditoAppUITestsLaunchTests.swift */; };
+		5A16BDAE299469C3007A81A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDAD299469C3007A81A3 /* User.swift */; };
+		5A16BDB029946A16007A81A3 /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDAF29946A16007A81A3 /* Publication.swift */; };
+		5A16BDB329946CE2007A81A3 /* AFHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDB229946CE2007A81A3 /* AFHttpClient.swift */; };
+		5A16BDB529946CFB007A81A3 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDB429946CFB007A81A3 /* HttpClient.swift */; };
+		5A16BDB829946E26007A81A3 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDB729946E26007A81A3 /* DataRepository.swift */; };
+		5A16BDBB29946EE5007A81A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDBA29946EE5007A81A3 /* Constants.swift */; };
+		5A16BDBE299470B2007A81A3 /* UserDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDBD299470B2007A81A3 /* UserDataViewModel.swift */; };
+		5A16BDC029949F79007A81A3 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDBF29949F79007A81A3 /* UserDetailView.swift */; };
+		5A16BDC32994A807007A81A3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDC22994A807007A81A3 /* LoadingView.swift */; };
+		5A16BDC729960B7B007A81A3 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDC629960B7B007A81A3 /* UserObject.swift */; };
+		5A16BDC929960B89007A81A3 /* PublicationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16BDC829960B89007A81A3 /* PublicationObject.swift */; };
+		5A658D832997345100A05A26 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A658D822997345100A05A26 /* SplashScreenView.swift */; };
+		A91C55B33A078113D35FDC0F /* libPods-SisteCreditoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 858DB2274BDD9F8E6B42435F /* libPods-SisteCreditoApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A16BD8F299464C8007A81A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A16BD71299464C4007A81A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A16BD78299464C4007A81A3;
+			remoteInfo = SisteCreditoApp;
+		};
+		5A16BD99299464C8007A81A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A16BD71299464C4007A81A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A16BD78299464C4007A81A3;
+			remoteInfo = SisteCreditoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A16BD79299464C4007A81A3 /* SisteCreditoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SisteCreditoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16BD7C299464C4007A81A3 /* SisteCreditoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisteCreditoAppApp.swift; sourceTree = "<group>"; };
+		5A16BD7E299464C4007A81A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A16BD80299464C8007A81A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A16BD83299464C8007A81A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A16BD85299464C8007A81A3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5A16BD88299464C8007A81A3 /* SisteCreditoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SisteCreditoApp.xcdatamodel; sourceTree = "<group>"; };
+		5A16BD8E299464C8007A81A3 /* SisteCreditoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisteCreditoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16BD92299464C8007A81A3 /* SisteCreditoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisteCreditoAppTests.swift; sourceTree = "<group>"; };
+		5A16BD98299464C8007A81A3 /* SisteCreditoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisteCreditoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16BD9C299464C8007A81A3 /* SisteCreditoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisteCreditoAppUITests.swift; sourceTree = "<group>"; };
+		5A16BD9E299464C8007A81A3 /* SisteCreditoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SisteCreditoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A16BDAD299469C3007A81A3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5A16BDAF29946A16007A81A3 /* Publication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publication.swift; sourceTree = "<group>"; };
+		5A16BDB229946CE2007A81A3 /* AFHttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHttpClient.swift; sourceTree = "<group>"; };
+		5A16BDB429946CFB007A81A3 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		5A16BDB729946E26007A81A3 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		5A16BDBA29946EE5007A81A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5A16BDBD299470B2007A81A3 /* UserDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewModel.swift; sourceTree = "<group>"; };
+		5A16BDBF29949F79007A81A3 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		5A16BDC22994A807007A81A3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5A16BDC629960B7B007A81A3 /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		5A16BDC829960B89007A81A3 /* PublicationObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationObject.swift; sourceTree = "<group>"; };
+		5A658D822997345100A05A26 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		68B4D4423E0A2926C1684431 /* Pods-SisteCreditoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SisteCreditoApp.debug.xcconfig"; path = "Target Support Files/Pods-SisteCreditoApp/Pods-SisteCreditoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		858DB2274BDD9F8E6B42435F /* libPods-SisteCreditoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SisteCreditoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90D8705C5275C5E889C76D5 /* Pods-SisteCreditoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SisteCreditoApp.release.xcconfig"; path = "Target Support Files/Pods-SisteCreditoApp/Pods-SisteCreditoApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A16BD76299464C4007A81A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91C55B33A078113D35FDC0F /* libPods-SisteCreditoApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A16BD8B299464C8007A81A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A16BD95299464C8007A81A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B566260CA674E98BCB9233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				858DB2274BDD9F8E6B42435F /* libPods-SisteCreditoApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33F395F21EBFF463441212C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68B4D4423E0A2926C1684431 /* Pods-SisteCreditoApp.debug.xcconfig */,
+				E90D8705C5275C5E889C76D5 /* Pods-SisteCreditoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A16BD70299464C4007A81A3 = {
+			isa = PBXGroup;
+			children = (
+				5A16BD7B299464C4007A81A3 /* SisteCreditoApp */,
+				5A16BD91299464C8007A81A3 /* SisteCreditoAppTests */,
+				5A16BD9B299464C8007A81A3 /* SisteCreditoAppUITests */,
+				5A16BD7A299464C4007A81A3 /* Products */,
+				33F395F21EBFF463441212C6 /* Pods */,
+				33B566260CA674E98BCB9233 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A16BD7A299464C4007A81A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BD79299464C4007A81A3 /* SisteCreditoApp.app */,
+				5A16BD8E299464C8007A81A3 /* SisteCreditoAppTests.xctest */,
+				5A16BD98299464C8007A81A3 /* SisteCreditoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A16BD7B299464C4007A81A3 /* SisteCreditoApp */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDC12994A7EF007A81A3 /* Utils */,
+				5A16BDB929946ED4007A81A3 /* Common */,
+				5A16BDAB29946629007A81A3 /* DataLayer */,
+				5A16BDBC2994708C007A81A3 /* BusinessLogic */,
+				5A16BD7C299464C4007A81A3 /* SisteCreditoAppApp.swift */,
+				5A16BD7E299464C4007A81A3 /* ContentView.swift */,
+				5A16BDBF29949F79007A81A3 /* UserDetailView.swift */,
+				5A658D822997345100A05A26 /* SplashScreenView.swift */,
+				5A16BD80299464C8007A81A3 /* Assets.xcassets */,
+				5A16BD85299464C8007A81A3 /* Persistence.swift */,
+				5A16BD87299464C8007A81A3 /* SisteCreditoApp.xcdatamodeld */,
+				5A16BD82299464C8007A81A3 /* Preview Content */,
+			);
+			path = SisteCreditoApp;
+			sourceTree = "<group>";
+		};
+		5A16BD82299464C8007A81A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BD83299464C8007A81A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A16BD91299464C8007A81A3 /* SisteCreditoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDCB29972A3B007A81A3 /* FakeData */,
+				5A16BD92299464C8007A81A3 /* SisteCreditoAppTests.swift */,
+			);
+			path = SisteCreditoAppTests;
+			sourceTree = "<group>";
+		};
+		5A16BD9B299464C8007A81A3 /* SisteCreditoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BD9C299464C8007A81A3 /* SisteCreditoAppUITests.swift */,
+				5A16BD9E299464C8007A81A3 /* SisteCreditoAppUITestsLaunchTests.swift */,
+			);
+			path = SisteCreditoAppUITests;
+			sourceTree = "<group>";
+		};
+		5A16BDAB29946629007A81A3 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDC429960B4D007A81A3 /* CoreData */,
+				5A16BDB629946DEC007A81A3 /* Repository */,
+				5A16BDB129946CCD007A81A3 /* Client */,
+				5A16BDAC29946823007A81A3 /* Models */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		5A16BDAC29946823007A81A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDAD299469C3007A81A3 /* User.swift */,
+				5A16BDAF29946A16007A81A3 /* Publication.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A16BDB129946CCD007A81A3 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDB229946CE2007A81A3 /* AFHttpClient.swift */,
+				5A16BDB429946CFB007A81A3 /* HttpClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		5A16BDB629946DEC007A81A3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDB729946E26007A81A3 /* DataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5A16BDB929946ED4007A81A3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDBA29946EE5007A81A3 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5A16BDBC2994708C007A81A3 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDBD299470B2007A81A3 /* UserDataViewModel.swift */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		5A16BDC12994A7EF007A81A3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDC22994A807007A81A3 /* LoadingView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5A16BDC429960B4D007A81A3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDC529960B58007A81A3 /* Models */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5A16BDC529960B58007A81A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A16BDC629960B7B007A81A3 /* UserObject.swift */,
+				5A16BDC829960B89007A81A3 /* PublicationObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A16BDCB29972A3B007A81A3 /* FakeData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FakeData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A16BD78299464C4007A81A3 /* SisteCreditoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A16BDA2299464C8007A81A3 /* Build configuration list for PBXNativeTarget "SisteCreditoApp" */;
+			buildPhases = (
+				B9FB9DB3C6248749CB60480E /* [CP] Check Pods Manifest.lock */,
+				5A16BD75299464C4007A81A3 /* Sources */,
+				5A16BD76299464C4007A81A3 /* Frameworks */,
+				5A16BD77299464C4007A81A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SisteCreditoApp;
+			productName = SisteCreditoApp;
+			productReference = 5A16BD79299464C4007A81A3 /* SisteCreditoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A16BD8D299464C8007A81A3 /* SisteCreditoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A16BDA5299464C8007A81A3 /* Build configuration list for PBXNativeTarget "SisteCreditoAppTests" */;
+			buildPhases = (
+				5A16BD8A299464C8007A81A3 /* Sources */,
+				5A16BD8B299464C8007A81A3 /* Frameworks */,
+				5A16BD8C299464C8007A81A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A16BD90299464C8007A81A3 /* PBXTargetDependency */,
+			);
+			name = SisteCreditoAppTests;
+			productName = SisteCreditoAppTests;
+			productReference = 5A16BD8E299464C8007A81A3 /* SisteCreditoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A16BD97299464C8007A81A3 /* SisteCreditoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A16BDA8299464C8007A81A3 /* Build configuration list for PBXNativeTarget "SisteCreditoAppUITests" */;
+			buildPhases = (
+				5A16BD94299464C8007A81A3 /* Sources */,
+				5A16BD95299464C8007A81A3 /* Frameworks */,
+				5A16BD96299464C8007A81A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A16BD9A299464C8007A81A3 /* PBXTargetDependency */,
+			);
+			name = SisteCreditoAppUITests;
+			productName = SisteCreditoAppUITests;
+			productReference = 5A16BD98299464C8007A81A3 /* SisteCreditoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A16BD71299464C4007A81A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A16BD78299464C4007A81A3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5A16BD8D299464C8007A81A3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A16BD78299464C4007A81A3;
+					};
+					5A16BD97299464C8007A81A3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A16BD78299464C4007A81A3;
+					};
+				};
+			};
+			buildConfigurationList = 5A16BD74299464C4007A81A3 /* Build configuration list for PBXProject "SisteCreditoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A16BD70299464C4007A81A3;
+			productRefGroup = 5A16BD7A299464C4007A81A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A16BD78299464C4007A81A3 /* SisteCreditoApp */,
+				5A16BD8D299464C8007A81A3 /* SisteCreditoAppTests */,
+				5A16BD97299464C8007A81A3 /* SisteCreditoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A16BD77299464C4007A81A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A16BD84299464C8007A81A3 /* Preview Assets.xcassets in Resources */,
+				5A16BD81299464C8007A81A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A16BD8C299464C8007A81A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A16BD96299464C8007A81A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9FB9DB3C6248749CB60480E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SisteCreditoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A16BD75299464C4007A81A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A16BDB029946A16007A81A3 /* Publication.swift in Sources */,
+				5A16BDBE299470B2007A81A3 /* UserDataViewModel.swift in Sources */,
+				5A16BD86299464C8007A81A3 /* Persistence.swift in Sources */,
+				5A16BDB529946CFB007A81A3 /* HttpClient.swift in Sources */,
+				5A16BDC929960B89007A81A3 /* PublicationObject.swift in Sources */,
+				5A16BDC029949F79007A81A3 /* UserDetailView.swift in Sources */,
+				5A16BD7F299464C4007A81A3 /* ContentView.swift in Sources */,
+				5A658D832997345100A05A26 /* SplashScreenView.swift in Sources */,
+				5A16BD7D299464C4007A81A3 /* SisteCreditoAppApp.swift in Sources */,
+				5A16BDBB29946EE5007A81A3 /* Constants.swift in Sources */,
+				5A16BDAE299469C3007A81A3 /* User.swift in Sources */,
+				5A16BDB829946E26007A81A3 /* DataRepository.swift in Sources */,
+				5A16BDB329946CE2007A81A3 /* AFHttpClient.swift in Sources */,
+				5A16BDC32994A807007A81A3 /* LoadingView.swift in Sources */,
+				5A16BD89299464C8007A81A3 /* SisteCreditoApp.xcdatamodeld in Sources */,
+				5A16BDC729960B7B007A81A3 /* UserObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A16BD8A299464C8007A81A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A16BD93299464C8007A81A3 /* SisteCreditoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A16BD94299464C8007A81A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A16BD9F299464C8007A81A3 /* SisteCreditoAppUITestsLaunchTests.swift in Sources */,
+				5A16BD9D299464C8007A81A3 /* SisteCreditoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A16BD90299464C8007A81A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A16BD78299464C4007A81A3 /* SisteCreditoApp */;
+			targetProxy = 5A16BD8F299464C8007A81A3 /* PBXContainerItemProxy */;
+		};
+		5A16BD9A299464C8007A81A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A16BD78299464C4007A81A3 /* SisteCreditoApp */;
+			targetProxy = 5A16BD99299464C8007A81A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A16BDA0299464C8007A81A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A16BDA1299464C8007A81A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A16BDA3299464C8007A81A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B4D4423E0A2926C1684431 /* Pods-SisteCreditoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SisteCreditoApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giobc.SisteCreditoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A16BDA4299464C8007A81A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90D8705C5275C5E889C76D5 /* Pods-SisteCreditoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SisteCreditoApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giobc.SisteCreditoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A16BDA6299464C8007A81A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giobc.SisteCreditoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SisteCreditoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SisteCreditoApp";
+			};
+			name = Debug;
+		};
+		5A16BDA7299464C8007A81A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giobc.SisteCreditoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SisteCreditoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SisteCreditoApp";
+			};
+			name = Release;
+		};
+		5A16BDA9299464C8007A81A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giobc.SisteCreditoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SisteCreditoApp;
+			};
+			name = Debug;
+		};
+		5A16BDAA299464C8007A81A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giobc.SisteCreditoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SisteCreditoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A16BD74299464C4007A81A3 /* Build configuration list for PBXProject "SisteCreditoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A16BDA0299464C8007A81A3 /* Debug */,
+				5A16BDA1299464C8007A81A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A16BDA2299464C8007A81A3 /* Build configuration list for PBXNativeTarget "SisteCreditoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A16BDA3299464C8007A81A3 /* Debug */,
+				5A16BDA4299464C8007A81A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A16BDA5299464C8007A81A3 /* Build configuration list for PBXNativeTarget "SisteCreditoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A16BDA6299464C8007A81A3 /* Debug */,
+				5A16BDA7299464C8007A81A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A16BDA8299464C8007A81A3 /* Build configuration list for PBXNativeTarget "SisteCreditoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A16BDA9299464C8007A81A3 /* Debug */,
+				5A16BDAA299464C8007A81A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A16BD87299464C8007A81A3 /* SisteCreditoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A16BD88299464C8007A81A3 /* SisteCreditoApp.xcdatamodel */,
+			);
+			currentVersion = 5A16BD88299464C8007A81A3 /* SisteCreditoApp.xcdatamodel */;
+			path = SisteCreditoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A16BD71299464C4007A81A3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module Pods_SisteCreditoApp {
+  umbrella header "Pods-SisteCreditoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
